@@ -1,0 +1,16 @@
+# Atividades-C
+
+/*Escreva um programa que solicite o nome do usuário e escreva o Boa noite e o  nome da pessoa.  Exemplo:
+	Qual seu nome: João
+	Boa noite, João.*/
+
+#include <stdio.h>
+
+int main () {
+
+char nome [61];
+printf ("Qual seu nome? \n");
+gets (nome );
+printf ("Boa noite, %s ", nome );
+
+}
