@@ -1,0 +1,26 @@
+/*
+Faça um programa que, a partir das medidas dos lados de um retângulo, lidos via teclado, 
+calcule a área e o perímetro deste retângulo. Lembre-se que: A = a.b P = 2.a + 2.b 
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main (){
+	
+	setlocale (LC_ALL,"");
+	
+	float altura, base, area, perimetro;
+	
+	printf("Digite a altura: \n");
+	scanf ("%f", &altura);
+	printf ("Digite a base: \n");
+	scanf ("%f", &base);
+	
+	area = altura * base;
+	perimetro = (2 * area) + (2 * base);
+	
+	printf ("A área do retangulo é %2.f, e do perímetro é %2.f", area, perimetro);
+	
+}
