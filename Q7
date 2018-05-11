@@ -1,0 +1,15 @@
+/*Escreva um programa para ler um valor (do teclado) e escrever (na tela) o seu antecessor.  Por exemplo, se o usuário digitar 5 deve aparecer na tela o número 4. */
+
+#include <stdlib.h>
+#include <stdio.h>
+
+int main (){
+	
+	int num;
+	
+printf (" Digite um numero: ");
+scanf ("%d", &num);
+num = num -1; // ou num--;
+printf ("A resposta: %d", num);
+
+}
