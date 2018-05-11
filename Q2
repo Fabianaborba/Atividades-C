@@ -1,0 +1,11 @@
+/*Escrever um programa que escreva seu nome, sua data de nascimento e o número do seu telefone.*/
+
+#include <stdio.h>
+
+int main () {
+
+printf ("Meu nome eh Fabiana Borba \n");
+printf ("Nascida em 1987 \n");
+printf ("Meu telefone eh 47 988090804" );
+
+}
