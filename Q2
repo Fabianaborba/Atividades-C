@@ -4,14 +4,14 @@
 
 int main () {
 
-char nome;
-int data, numero;
+	char nome;
+	float data, numero;
 
-printf ("Digite seu nome: \n");
-scanf("%c", &nome);
-printf ("Qual sua data de nascimento: \n");
-scanf ("&d", &data);
-printf ("Qual seu numero de telefone: \n");
-scanf("%d", &numero);
+	printf ("Digite seu nome: \n");
+	scanf("%c", &nome);
+	printf ("Qual sua data de nascimento: \n");
+	scanf ("%d", &data);
+	printf ("Qual seu numero de telefone: \n");
+	scanf("%d", &numero);
 
 }
