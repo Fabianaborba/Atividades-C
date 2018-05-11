@@ -1,0 +1,22 @@
+/*número de horas trabalhadas no mês e o valor hora e apresenta o salário bruto a ser recebido no mês.*/
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main (){
+	setlocale (LC_ALL,"");
+	float matricula, horastrab, valorhora, salariobruto;
+	char nome;
+
+	printf ("Dgigite o numero de sua matricula: \n");
+	scanf ("%f", &matricula);
+	printf ("Digite seu nome: \n");
+	scanf ("%s", &nome);
+	printf ("Digite o numero de horas trabalhadas no mes: \n");
+	scanf ("%f", &horastrab);
+	printf ("Digite o valor da hora trabalhada: \n");
+	scanf ("%f", &valorhora);
+	salariobruto = (horastrab*valorhora);
+	printf ("O valor do salario bruto a receber no mes é: %f", salariobruto);
+}
