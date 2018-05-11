@@ -4,8 +4,14 @@
 
 int main () {
 
-printf ("Meu nome eh Fabiana Borba \n");
-printf ("Nascida em 1987 \n");
-printf ("Meu telefone eh 47 988090804" );
+char nome;
+int data, numero;
+
+printf ("Digite seu nome: \n");
+scanf("%c", &nome);
+printf ("Qual sua data de nascimento: \n");
+scanf ("&d", &data);
+printf ("Qual seu numero de telefone: \n");
+scanf("%d", &numero);
 
 }
