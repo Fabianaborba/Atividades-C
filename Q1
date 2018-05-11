@@ -6,9 +6,9 @@
 
 int main () {
 
-char nome [61];
-printf ("Qual seu nome? \n");
-gets (nome );
-printf ("Boa noite, %s ", nome );
+	char nome [61];
+	printf ("Qual seu nome? \n");
+	gets (nome );
+	printf ("Boa noite, %s ", nome );
 
 }
