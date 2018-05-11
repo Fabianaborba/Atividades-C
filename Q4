@@ -1,0 +1,25 @@
+/*Faça um programa que imprima a letra F conforme o exemplo abaixo:
+  ######
+	#
+	#
+	#####
+	#
+	#
+	# 
+  
+  */
+
+#include <stdlib.h>
+#include <stdio.h>
+
+int main (){
+	
+	printf ("###### \n");
+	printf ("# \n");
+	printf ("#");
+	printf ("##### \n");
+	printf ("# \n");
+	printf ("# \n");
+	printf ("# \n");
+	
+}
